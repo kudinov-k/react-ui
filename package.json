@@ -39,7 +39,7 @@
     "typescript": "^3.0.3"
   },
   "files": [
-    "lib",
+    "src/lib",
     "LICENSE"
   ]
 }
