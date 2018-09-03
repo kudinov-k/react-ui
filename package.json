@@ -6,8 +6,7 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "start": "react-scripts-ts start",
-    "build": "rm -rf ./lib/* && tsc",
-    "prepublish": "npm run build",
+    "build": "tsc",
     "test": "./tests/test.sh",
     "prepare": "npm run build"
   },
