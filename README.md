@@ -23,5 +23,28 @@ To run test use:
 npm test
 ```
 
+After adding new components in `lib` need add export to main `lib/index.ts` file.
+Then build code with command:
 
+```shell
+npm build
+```
 
+And after that push.
+
+To use this lib in another project just add in package.json 
+
+`"react-ui": "git+ssh://git@github.com/kudinov-k/react-ui.git"`
+
+and install it.
+
+Import components in your code
+
+```js
+import { Hello, Bye } from 'react-ui';
+```
+
+```jsx
+<Hello/>
+<Bye/>
+```
