@@ -42,5 +42,4 @@ jspm_packages
 .node_repl_history
 /package-lock.json
 .idea
-/lib
 react-ui-*

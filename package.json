@@ -6,9 +6,8 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "start": "react-scripts-ts start",
-    "build": "tsc",
-    "test": "./tests/test.sh",
-    "prepare": "npm run build"
+    "build": "rm -rf ./lib/* && tsc",
+    "test": "./tests/test.sh"
   },
   "repository": {
     "type": "git",
@@ -39,8 +38,7 @@
     "typescript": "^3.0.3"
   },
   "files": [
-    "src/lib",
-    "LICENSE",
-    "tsconfig.json"
+    "lib",
+    "LICENSE"
   ]
 }
